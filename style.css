@@ -1,0 +1,112 @@
+html,
+body{
+  margin:0 auto;
+  width: 100%;
+}
+header{
+  position: fixed;
+width: 100%;
+height: 9%;
+
+}
+article{
+  position: absolute;
+  height: 91%;
+  top: 9%;
+  width: 100%;
+}
+#image{
+  width: 15px;
+}
+.right{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.right > a {
+  text-decoration: none;
+  color: Black;
+  font-size: 12px;
+  margin: 6px;
+}
+a:hover {
+   text-decoration: underline;
+}
+
+.logo{
+  width: 35%;
+  margin: 0 auto;
+  position: relative;
+  top: 24%;
+}
+.logo > img{
+  width: 350px;
+}
+.Barre{
+  position: absolute;
+  left: 27%;
+  top: 44%;
+}
+.Barre > input{
+  width: 475px;
+  border: medium none;
+  box-shadow: 0px 2px 2px 2px #cccccc;
+  height: 30px;
+  
+}
+
+
+.Recherche{
+  position: absolute;
+  left: 34%;
+  top: 51%;
+}
+.Recherche > input{
+  border-color: #f1f1f1;
+  color:#887575;
+  border-style: solid;
+
+}
+.chance{
+  position: absolute;
+left: 46%;
+top: 51%;
+}
+.chance >input:hover{
+  border: 1px solid #757584;
+  color: Black;
+}
+.Recherche >input:hover{
+  border: 1px solid #757584;
+  color: Black;
+}
+.chance > input{
+  border-color: #f1f1f1;
+  color:#887575;
+  border-style: solid;
+}
+footer{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: #f2f2f2;
+  height: 70px;
+}
+footer > div {
+  display: inline;
+}
+#floatR{
+  right: 0px;
+  position: absolute;
+}
+#trait{
+  margin-top: 0px;
+}
+#France{
+  font-size: 12px;
+}
+footer > div > a{
+  text-decoration: none;
+  color: Black;
+  font-size: 12px;
+}
